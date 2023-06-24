@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let a = 5;
+        let b='My name is yuta'
+        console.log(b);
+        console.log(a);
+        function name(){
+            console.log("Ewaram Limbu");
+        }
+        // let object={
+        //     age:55,
+        //     id:5,
+        //     func:function myfunc(number){
+        //         console.log("The number is "+ this);
+
+        //     }
+        //}
+        
+        const person = {
+     firstName: 'John',
+         lastName: 'Doe',
+  fullName: function() {
+    return person.firstName + ' ' + this.lastName;
+  }
+}
+console.log(person.fullName())
+   
+       
+        let array=[3,6,8,10];
+
+        document.addEventListener("click",function click(){
+            console.log("You cant click here!");
+           // alert("Error!")
+            let conf=confirm("Are you sure?");
+            console.log(conf);
+        })
+        setTimeout(() => {
+            console.log("timeOut!")
+        }, 3000);
+        console.log("I am the code below");
+     
+        </script>
+   
+</head>
+<body>
+    <h1> This is a body room 22.</h1>
+    <a href="https://facebook.com" target="_blank">Go to Facebook</a>
+   
+</body>
+</html>
+
